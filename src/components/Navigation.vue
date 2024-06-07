@@ -13,9 +13,9 @@
       <li>
         <RouterLink class="align-middle" to="/sell-property">Sell Property</RouterLink>
       </li> -->
-      <li>
+      <!-- <li>
         <a class="align-middle" :href="openseaLink" target="”_blank”">View On Opensea</a>
-      </li>
+      </li> -->
       <li>
         <RouterLink class="align-middle" to="/about">About</RouterLink>
       </li>

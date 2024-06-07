@@ -14,6 +14,9 @@ export default {
         cover: 'cover',
         contain: 'contain',
         4: '4rem'
+      },
+      flexGrow: {
+        2: '2'
       }
     }
   },

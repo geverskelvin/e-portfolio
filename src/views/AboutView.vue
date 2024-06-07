@@ -1,16 +1,16 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1 class="text-3xl mb-24 text-center">About Me</h1>
     <IntroductionText />
-    <SkillsGrid />
-    <About />
+    <Skills />
+    <p class="text-3xl text-center">cv</p>
+    <p class="text-3xl text-center">linkedin</p>
   </div>
 </template>
 
 <script setup>
-import SkillsGrid from '@/components/SkillsGrid.vue'
 import IntroductionText from '@/components/IntroductionText.vue'
-import About from '@/components/About.vue'
+import Skills from '@/components/Skills.vue'
 </script>
 <style>
 /* @media (min-width: 1024px) {

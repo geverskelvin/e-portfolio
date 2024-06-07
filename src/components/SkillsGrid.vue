@@ -1,7 +1,7 @@
 <template>
-  <div class="skills-grid">
-    <h1>My Skills</h1>
-    <div class="grid">
+  <div class="">
+    <h2 class="text-2xl text-center mb-4">Skills</h2>
+    <div class="flex flex-wrap">
       <div v-for="skill in skills" :key="skill.name" class="skill">
         <i :class="skill.icon" class="skill-icon"></i>
         <p>{{ skill.name }}</p>
@@ -20,8 +20,10 @@ export default {
         { name: 'JavaScript', icon: 'fab fa-js' },
         { name: 'HTML5', icon: 'fab fa-html5' },
         { name: 'CSS3', icon: 'fab fa-css3-alt' },
-        { name: 'Raspberry Pi', icon: 'fab fa-raspberry-pi' } // Note: Replace with actual Raspberry Pi icon if available
-        // Add more skills as needed
+        { name: 'Raspberry Pi', icon: 'fab fa-raspberry-pi' },
+        { name: 'Solidity', icon: 'fas fa-file-code' }, // Using a generic code icon as placeholder
+        { name: 'Java', icon: 'fab fa-java' },
+        { name: 'SQL', icon: 'fas fa-database' } // Using a database icon as placeholder
       ]
     }
   }
