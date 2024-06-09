@@ -1,6 +1,8 @@
 {
   "id": 2,
-  "title": "Podcast",
+  "tag": "podcast",
+  "title": "Blockchain Podcast",
+  "description": "A captivating blockchain podcast unraveling the world of decentralized technology.",
   "img": "/src/assets/blogpost_images/podcast.png",
   "content": "This is a podcast post",
   "date": "2024-06-01"

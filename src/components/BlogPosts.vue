@@ -1,24 +1,26 @@
 <template>
   <h1 class="text-3xl mb-24 text-center">Blog Posts</h1>
-  <div class="flex flex-wrap justify-start">
+  <div class="flex flex-wrap">
     <article
       v-for="post in posts"
       :key="post.id"
       :post="post"
-      class="flex flex-col bg-slate-200 text-center mb-24 inline-block p-8 shadow-xl w-96 m-auto items-center"
+      :style="{ backgroundImage: `url(${post.img})` }"
+      class="h-96 flex flex-col mb-24 shadow-xl w-96 m-auto bg-cover bg-center bg-no-repeat border-slate-300 hover:border-black border-4 hover:shadow-2xl cursor-pointer hover:opacity-50 transition-all duration-300 ease-in-out"
+      @click.prevent="handleClick(post.id)"
     >
-      <!-- <p>{{ post.id }}</p> -->
-      <h2 class="text-3xl mb-2">{{ post.title }}</h2>
-      <!-- <p class="mb-10">{{ post.img }}</p> -->
-      <img :src="post.img" alt="post image" class="w-96 mb-10" />
-      <!-- <img src="@/assets/blogpost_images/hackathon.jpg" alt="post image" class="mb-10" /> -->
-      <!-- <p>{{ post.content }}</p> -->
-      <button
-        @click.prevent="handleClick(post.id)"
-        class="bg-green-200 border border-black hover:bg-transparent p-1"
-      >
-        Go To Post
-      </button>
+      <section class="flex justify-between mb-2">
+        <p class="bg-slate-300 font-medium p-1">{{ post.tag }}</p>
+        <p class="bg-slate-300 font-medium p-1">{{ post.date }}</p>
+      </section>
+      <!-- <section class="flex flex-col justify-end relative"> -->
+      <h2 class="text-3xl m-2 font-medium text-white text-center mb-24">
+        {{ post.title }}
+      </h2>
+      <p class="text-white m-1 text-center text-2xl font-medium">
+        {{ post.description }}
+      </p>
+      <!-- </section> -->
     </article>
   </div>
 </template>
@@ -43,4 +45,12 @@ const handleClick = (id) => {
 }
 </script>
 
-<style></style>
+<style scoped>
+img {
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  /* max-width: 100%; */
+  /* height: auto; */
+}
+</style>
