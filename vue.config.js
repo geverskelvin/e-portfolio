@@ -1,6 +1,5 @@
+export const publicPath = '/e-portfolio/'
+
 // module.exports = {
 //   publicPath: process.env.NODE_ENV === "production" ? "/REPO_NAME/" : "/",
 // };
-module.exports = {
-  publicPath: '/e-portfolio/'
-}
