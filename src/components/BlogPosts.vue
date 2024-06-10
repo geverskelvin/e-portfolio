@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-3xl mb-24 text-center">Blog Posts</h1>
+  <h1 class="text-5xl mb-24 text-center text-slate-600">Blog Posts</h1>
   <div class="flex flex-wrap">
     <article
       v-for="post in posts"
@@ -14,10 +14,10 @@
         <p class="bg-slate-300 font-medium p-1">{{ post.date }}</p>
       </section>
       <!-- <section class="flex flex-col justify-end relative"> -->
-      <h2 class="text-3xl m-2 font-medium text-white text-center mb-24">
+      <h2 class="bg-slate-500 bg-opacity-50 text-3xl m-2 font-medium text-white text-center mb-24">
         {{ post.title }}
       </h2>
-      <p class="text-white m-1 text-center text-2xl font-medium">
+      <p class="bg-slate-500 bg-opacity-50 text-white m-1 text-center text-2xl font-medium">
         {{ post.description }}
       </p>
       <!-- </section> -->
@@ -33,8 +33,9 @@ import post2 from '@/data/posts/2.json'
 import post3 from '@/data/posts/3.json'
 import post4 from '@/data/posts/4.json'
 import post5 from '@/data/posts/5.json'
+import post6 from '@/data/posts/6.json'
 
-const posts = ref([post1, post2, post3, post4, post5])
+const posts = ref([post1, post2, post3, post4, post5, post6])
 const router = useRouter()
 
 const handleClick = (id) => {

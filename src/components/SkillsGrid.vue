@@ -1,9 +1,9 @@
 <template>
-  <div class="">
-    <h2 class="text-2xl text-center mb-4">Skills</h2>
-    <div class="flex flex-wrap">
-      <div v-for="skill in skills" :key="skill.name" class="skill">
-        <i :class="skill.icon" class="skill-icon"></i>
+  <div>
+    <h2 class="text-3xl text-center mb-4 w-5/12">Skills</h2>
+    <div class="flex flex-wrap w-5/12">
+      <div v-for="skill in skills" :key="skill.name" class="skill mb-6">
+        <i :class="skill.icon" class="skill-icon text-slate-500"></i>
         <p>{{ skill.name }}</p>
       </div>
     </div>
@@ -23,7 +23,11 @@ export default {
         { name: 'Raspberry Pi', icon: 'fab fa-raspberry-pi' },
         { name: 'Solidity', icon: 'fas fa-file-code' }, // Using a generic code icon as placeholder
         { name: 'Java', icon: 'fab fa-java' },
-        { name: 'SQL', icon: 'fas fa-database' } // Using a database icon as placeholder
+        { name: 'SQL', icon: 'fa fa-database' }, // Using a database icon as placeholder
+        { name: 'Github', icon: 'fab fa-github' },
+        { name: 'Vue', icon: 'fab fa-vuejs' },
+        { name: 'Linux', icon: 'fab fa-linux' },
+        { name: 'Docker', icon: 'fab fa-docker' }
       ]
     }
   }
@@ -31,26 +35,6 @@ export default {
 </script>
 
 <style scoped>
-.skills-grid {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-h1 {
-  color: #2c3e50;
-  margin-bottom: 20px;
-}
-
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
 .skill {
   display: flex;
   flex-direction: column;
@@ -60,7 +44,6 @@ h1 {
 
 .skill-icon {
   font-size: 48px;
-  color: #3498db;
   margin-bottom: 10px;
 }
 

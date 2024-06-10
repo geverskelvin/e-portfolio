@@ -1,11 +1,12 @@
 <template>
-  <div class="expertise block grow-1">
-    <h2 class="text-2xl mb-4">Expertise</h2>
-    <ul>
+  <div>
+    <h2 class="text-3xl mb-4">Expertise</h2>
+    <ul class="list-disc">
       <li>Blockchain Development</li>
       <li>Smart Contract Design</li>
-      <li>Artificial Intelligence & Machine Learning</li>
-      <li>Decentralized Applications (DApps)</li>
+      <li>Deep Learning</li>
+      <li>Machine Learning</li>
+      <li>Decentralized Applications</li>
       <li>Data Science</li>
     </ul>
   </div>
@@ -17,9 +18,4 @@ export default {
 }
 </script>
 
-<style scoped>
-/* .expertise {
-  margin: 0 auto;
-  width: 80%;
-} */
-</style>
+<style scoped></style>

@@ -8,7 +8,7 @@
       journey started with a deep curiosity about how things work and a desire to create innovative
       solutions to real-world problems.
     </p>
-    <img class="w-48 mr-96" src="@/assets/photo.png" />
+    <img class="w-48 mr-96" src="/public/photo.png" />
     <!-- <p>
       I am a blockchain and AI engineer with a passion for developing innovative solutions. With my
       expertise in blockchain technology and artificial intelligence, I strive to create secure and

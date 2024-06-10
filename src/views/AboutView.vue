@@ -1,16 +1,18 @@
 <template>
   <div class="about">
-    <h1 class="text-3xl mb-24 text-center">About Me</h1>
+    <h1 class="text-5xl mb-24 text-center text-slate-600">About Me</h1>
     <IntroductionText />
     <Skills />
-    <p class="text-3xl text-center">cv</p>
-    <p class="text-3xl text-center">linkedin</p>
+    <div class="mt-4">
+      <Socials />
+    </div>
   </div>
 </template>
 
 <script setup>
 import IntroductionText from '@/components/IntroductionText.vue'
 import Skills from '@/components/Skills.vue'
+import Socials from '@/components/Socials.vue'
 </script>
 <style>
 /* @media (min-width: 1024px) {

@@ -3,7 +3,9 @@
   "tag": "podcast",
   "title": "Blockchain Podcast",
   "description": "A captivating blockchain podcast unraveling the world of decentralized technology.",
-  "img": "/src/assets/blogpost_images/podcast.png",
-  "content": "This is a podcast post",
-  "date": "2024-06-01"
+  "img": "/public/blogpost_images/podcast.png",
+  "content": "Together with co-students Gaetan and Roel, we had the honor of doing a bockchain podcast with Coelus Bart as a guest. He is a real blockchain professional with years of experience on his name. Are you curious about the transformative power of blockchain technology? Want to learn from a seasoned expert with years of hands-on experience? In our latest podcast episode, Coelus Bart dives deep into the world of blockchain, sharing insights that are both enlightening and thought-provoking. Join us as we explore the intricacies of blockchain technology, its wide-ranging applications beyond cryptocurrencies, and what the future holds for this groundbreaking innovation. Whether you're a blockchain enthusiast or just getting started, this episode is packed with valuable information and expert predictions that you won't want to miss. Tune in to discover how blockchain is reshaping industries, enhancing data privacy, and fostering trust in the digital age. Plus, get practical advice on starting a career in this dynamic field straight from an industry leader.",
+  "date": "12 May 2024",
+  "buttonLink": "https://open.spotify.com/episode/2tPyNGp1BgM3viYTCZMRgH?si=773056c488c442e2",
+  "buttonText": "Go to podcast"
 }

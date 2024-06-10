@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap justify-around items-center mx-auto w-4/5">
+  <div class="flex justify-around mx-auto w-4/5">
     <SkillsGrid />
     <Expertise />
   </div>
@@ -8,6 +8,7 @@
 <script>
 import SkillsGrid from '@/components/SkillsGrid.vue'
 import Expertise from '@/components/Expertise.vue'
+
 export default {
   name: 'Skills',
   components: {
