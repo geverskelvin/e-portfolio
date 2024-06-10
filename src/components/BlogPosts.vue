@@ -34,8 +34,9 @@ import post3 from '@/data/posts/3.json'
 import post4 from '@/data/posts/4.json'
 import post5 from '@/data/posts/5.json'
 import post6 from '@/data/posts/6.json'
+import post7 from '@/data/posts/7.json'
 
-const posts = ref([post1, post2, post3, post4, post5, post6])
+const posts = ref([post1, post2, post3, post4, post5, post6, post7])
 const router = useRouter()
 
 const handleClick = (id) => {
