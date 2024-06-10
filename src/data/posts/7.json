@@ -1,0 +1,11 @@
+{
+  "id": 7,
+  "tag": "project",
+  "title": "PropertyFi",
+  "description": "Creation of PropertyFi, a Real Estate Marketplace using NFT's",
+  "img": "/blogpost_images/propertyfi.png",
+  "content": "PropertyFi is a project I created for my bachelor thesis. It is a Real Estate Marketplace that uses NFT's so that each property is safely stored on the blockchain. The website is made with vue.js, using the library web3.js to connect to the blockchain. I also made a server with express.js that stores the metadata for every property so that OpenSea (the biggest NFT platform) can access the properties. And lastly I made 2 smart contracts using solidity, one smart contract for the nft collection itself and one for the marketplace managing the buy/sell orders. These smart contracts are deployed on the polygon blockchain which itself is a sidechain of the ethereum blockchain.",
+  "date": "10 June 2024",
+  "buttonText": "Watch Demo",
+  "buttonLink": "https://1drv.ms/v/c/204498874A69E948/EbRE0DjliiRBhdEuJ752bPoBasEVVuYkrKjAnvmNOi8rKA?e=IBkqxf"
+}
