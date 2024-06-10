@@ -3,7 +3,7 @@
   "tag": "project",
   "title": "Blog",
   "description": "Creation of this blog website",
-  "img": "/public/blogpost_images/blog.jpg",
+  "img": "/blogpost_images/blog.jpg",
   "content": "I created this blog website using vue.js. Whenever you want to add a blog post you add a json file with the title, description, tag, date, image and content. The site is hosted by onrender.com, they gave me a free to use domain name.",
   "date": "10 June 2024"
 }
