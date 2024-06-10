@@ -3,7 +3,7 @@
   "tag": "hackathon",
   "title": "Web3 & AI hackathon",
   "description": "Exploring the potential of using AI and Web3 in an intense 24-hour hackathon",
-  "img": "/public/blogpost_images/hackathon.jpg",
+  "img": "/blogpost_images/hackathon.jpg",
   "content": "I participated in an AI and Web3 hackathon. This hackathon was in the MAM of Howest and lasts 24 hours. I participated with 4 team mates and we did a really good job. We arrived at the hackathon at 16:00 and got a tour of the whole building. At 18:00 we got a presentation about all the info of the event. Then it was time for hacking. We sat together with our group and started writing ideas of AI and Web3 projects on postits. Then we went over them and threw away the worst. Eventually we chose the idea of a learning platform with AI and when you complete all the quizzes you get a certificate/nft on the blockchain. After some thinking we got the idea of drawing formula1 tracks and questions about formula1 like 'who won the grand prix in 2007'.  We made 3 quizzes with these random questions and tracks and when you got a score of 75% or higher on each quiz you can mint an certificate/nft. This is a proof of ownership that you completed all quizzes with a high score so you are a loyal formula1 fan. With these nft's the formula1 could give them discounts for tickets or meet n greets with the sportsman, ... . The possibilities are endless. We then also implemented a chatbot using RAG, you can only ask it questions about formula1 and it will answer it immediately. 24 hours later with only sleeping 4 hours on the concrete our project was ready to present. In the end we didn't won but we learned a lot about AI and Web",
   "date": "19-20 April 2024"
 }
